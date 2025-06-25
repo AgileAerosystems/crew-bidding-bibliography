@@ -1,9 +1,11 @@
-# Crew-Bidding & Scheduling Bibliography (Links Only)
+# Crew-Bidding & Scheduling Bibliography
 
-Community-maintained BibTeX library for airline crew-bidding and crew-scheduling research.
+> **Status:** link-only mode, community-maintained
+
+Community BibTeX library for airline crew-bidding and crew-scheduling research.
 
 ## Quick-Start Tagging Guide
-Each entry’s `keywords` field **must start** with one Pillar ID (`T1`–`T8`) followed by comma-separated tags.
+Each entry’s `keywords` field must start with a Pillar ID (`T1`–`T8`) then tags.
 
 ```bibtex
 keywords = {T2, exact, lexicographic}
