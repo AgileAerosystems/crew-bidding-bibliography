@@ -1,5 +1,10 @@
 # Crew-Bidding & Scheduling Bibliography
 
+[![CI](https://github.com/AgileAerosystems/crew-bidding-bibliography/actions/workflows/render.yml/badge.svg)](https://github.com/AgileAerosystems/crew-bidding-bibliography/actions/workflows/render.yml)
+
+🌐 **Live references page:** <https://agileaerosystems.github.io/crew-bidding-bibliography/>
+
+
 **Status:** link-only mode, community-maintained  
 
 Community BibTeX library for airline crew-bidding and crew-scheduling research.
