@@ -1,0 +1,34 @@
+name: Render References by Pillar
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install bibtexparser
+
+      - name: Group BibTeX by Pillar
+        run: python scripts/group_by_pillar.py
+
+      - name: Convert Markdown → HTML
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y pandoc texlive-binaries
+          pandoc docs/_tmp_references.md -s -o references.html \
+                --metadata title="Crew-Bidding References by Pillar"
+
+      - name: Commit artefact
+        run: |
+          git config --global user.email "ci@agileaerosystems.com"
+          git config --global user.name  "AA-CI Bot"
+          git add references.html
+          git diff --cached --quiet || git commit -m "chore: auto-render refs [skip ci]"
+          git push
