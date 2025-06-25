@@ -18,6 +18,9 @@ jobs:
       - name: Install deps
         run: pip install bibtexparser
 
+      - name: Check links
+        run: python scripts/link_check.py
+
       - name: Group BibTeX by Pillar
         run: python scripts/group_by_pillar.py
 
