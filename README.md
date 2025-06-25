@@ -12,6 +12,6 @@ Each entry’s `keywords` field **must start** with a Pillar ID (`T1`–`T8`) an
 
 ```bibtex
 keywords = {T2, exact, lexicographic}
-```markdown
+```
 * **Full evergreen taxonomy → [docs/TAXONOMY.md](docs/TAXONOMY.md)**
 * **Contribution rules   → [contributing.md](contributing.md)**
