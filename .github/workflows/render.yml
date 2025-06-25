@@ -16,7 +16,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install bibtexparser
+        run: pip install bibtexparser requests
 
       - name: Check links
         run: python scripts/link_check.py
