@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/AgileAerosystems/crew-bidding-bibliography/actions/workflows/render.yml/badge.svg)](https://github.com/AgileAerosystems/crew-bidding-bibliography/actions/workflows/render.yml)
 
-🌐 **Live references page:** <https://agileaerosystems.github.io/crew-bidding-bibliography/>
+🌐 **Live references page:** <https://agileaerosystems.github.io/crew-bidding-bibliography/references.html>
 
 
 **Status:** link-only mode, community-maintained  
