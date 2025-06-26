@@ -32,15 +32,28 @@ jobs:
           pandoc docs/_tmp_references.md -s -o references.html \
                 --metadata title="Crew-Bidding References by Pillar" \
                 --css style.css
-          # one page per pillar
-          for P in T1 T2 T3 T4 T5 T6 T7 T8; do
-            if [ -f docs/_tmp_${P}.md ]; then        # ← skip pillars with no entries
-              pandoc docs/_tmp_${P}.md -s -o ${P}.html \
-                --metadata title="Crew-Bidding References — ${P}" \
-                --css style.css
+          # mapping: Pillar → pretty slug
+          declare -A SLUGS=(
+            [T1]="T1-Foundations-and-Regulatory-Context"
+            [T2]="T2-Algorithmic-Advances"
+            [T3]="T3-Systems-and-Operational-Implementations"
+            [T4]="T4-Data-and-Benchmark-Resources"
+            [T5]="T5-Survey-and-Synthesis"
+            [T6]="T6-AI-and-Data-Driven-Methods"
+            [T7]="T7-Extensions-and-Inter-Domain-Innovations"
+            [T8]="T8-Emerging-Frontiers"
+          )
+          for P in "${!SLUGS[@]}"; do
+            MD="docs/_tmp_${P}.md"
+            if [ -f "$MD" ]; then
+              pandoc "$MD" -s -o "${P}.html" \
+                    --metadata title="Crew-Bidding References — ${P}" \
+                    --css style.css
+              cp "${P}.html" "${SLUGS[$P]}.html"   # pretty URL
             fi
           done
           cp references.html index.html           # ← keeps root URL optional
+
 
       - name: Commit artefact
         run: |
