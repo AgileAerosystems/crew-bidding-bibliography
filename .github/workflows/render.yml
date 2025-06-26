@@ -27,9 +27,11 @@ jobs:
       - name: Convert Markdown → HTML
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y pandoc texlive-binaries
+          sudo apt-get install -y pandoc          # no TeX needed for pure HTML
           pandoc docs/_tmp_references.md -s -o references.html \
-                --metadata title="Crew-Bidding References by Pillar"
+                --metadata title="Crew-Bidding References by Pillar" \
+                --css style.css                   # ← attaches the stylesheet
+          cp references.html index.html           # ← keeps root URL optional
 
       - name: Commit artefact
         run: |
