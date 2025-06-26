@@ -1,5 +1,5 @@
 /* widen default GitHub-Pages column */
-.markdown-body      { max-width: 90vw; margin: 2rem auto; font-family: sans-serif; }
+.markdown-body      { max-width: 80vw; margin: 2rem auto; font-family: sans-serif; }
 
 /* full-width, fixed table layout */
 table               { 
