@@ -34,9 +34,11 @@ jobs:
                 --css style.css
           # one page per pillar
           for P in T1 T2 T3 T4 T5 T6 T7 T8; do
-            pandoc docs/_tmp_${P}.md -s -o ${P}.html \
-                  --metadata title="Crew-Bidding References — ${P}" \
-                  --css style.css
+            if [ -f docs/_tmp_${P}.md ]; then        # ← skip pillars with no entries
+              pandoc docs/_tmp_${P}.md -s -o ${P}.html \
+                --metadata title="Crew-Bidding References — ${P}" \
+                --css style.css
+            fi
           done
           cp references.html index.html           # ← keeps root URL optional
           
