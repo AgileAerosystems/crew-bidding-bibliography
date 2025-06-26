@@ -20,9 +20,6 @@
 
 🌐 **Live references page:** <https://agileaerosystems.github.io/crew-bidding-bibliography/references.html>
 
-| **T2** | [Algorithmic Advances](T2-Algorithmic-Advances.html) \n
-| **T7** | [Extensions-and-Inter-Domain-Innovations](T7-Extensions-and-Inter-Domain-Innovations.html)
-
 **Status:** link-only mode, community-maintained  
 
 Community BibTeX library for airline crew-bidding and crew-scheduling research.
