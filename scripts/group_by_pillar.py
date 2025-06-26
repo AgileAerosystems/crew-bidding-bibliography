@@ -20,6 +20,17 @@ PILLAR_NAMES = {
     "T8": "Emerging Frontiers",
 }
 
+CSS = """
+<style>
+body   { max-width: 95%; margin: 2rem auto; font-family: sans-serif; }
+table  { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.4rem 0.6rem; border: 1px solid #ccc; }
+@media (max-width: 600px) {
+  table { display: block; overflow-x: auto; }
+}
+</style>
+"""
+
 TAXONOMY_TABLE = """
 | Pillar&nbsp;ID | Name                                   | Why it Exists / Scope (one-liner)                                                   | Typical Questions Answered |
 |---------------|----------------------------------------|-------------------------------------------------------------------------------------|----------------------------|
@@ -55,8 +66,9 @@ def main():
         sys.exit(1)
 
     with open(OUT, "w", encoding="utf8") as out:
-        out.write("# Crew-Bidding & Scheduling References\n\n")
-        out.write(TAXONOMY_TABLE + "\n\n")      # <- add taxonomy table
+        out.write("# Crew-Bidding References by Pillar\n\n")
+        out.write(CSS + "\n")                # inject style tag
+        out.write(TAXONOMY_TABLE + "\n\n")
         for pid, entries in grouped.items():
             if not entries:               # skip empty sections
                 continue
