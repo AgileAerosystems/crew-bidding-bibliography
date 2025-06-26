@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-Generate docs/_tmp_references.md grouped by Pillar ID.
+Generate Markdown files grouped by Pillar.
 
-• Reads docs/TAXONOMY.md, extracts the first Markdown table (until the
-  first '---' separator), and inserts it under the title.
-• Adds <link rel="stylesheet" href="style.css"> so GitHub Pages uses
-  the external CSS you placed in style.css.
-• Fails if any BibTeX entry lacks a Pillar tag (T1–T8).
+• docs/_tmp_references.md      – full page (taxonomy table + all pillars)
+• docs/_tmp_T1.md … _tmp_T8.md – one page per pillar (no taxonomy table)
+
+The workflow converts these to references.html and T1.html … T8.html.
 """
 
 import re, textwrap, pathlib, sys, bibtexparser
@@ -14,7 +13,8 @@ import re, textwrap, pathlib, sys, bibtexparser
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BIB  = ROOT / "bib"  / "bibliography.bib"
 TAX  = ROOT / "docs" / "TAXONOMY.md"
-OUT  = ROOT / "docs" / "_tmp_references.md"
+OUT_ALL  = ROOT / "docs" / "_tmp_references.md"
+OUT_PILLAR = ROOT / "docs" / "_tmp_{pid}.md"
 
 PILLAR_NAMES = {
     "T1": "Foundations & Regulatory Context",
@@ -28,54 +28,71 @@ PILLAR_NAMES = {
 }
 
 # ---------------------------------------------------------------------
-# Helper: return the first Markdown table in TAXONOMY.md
+# Helpers
 # ---------------------------------------------------------------------
-def load_taxonomy_table() -> str:
+def load_taxonomy_table():
     lines, collecting = [], False
     for line in TAX.read_text(encoding="utf8").splitlines():
         if line.strip().startswith("|"):
             collecting = True
             lines.append(line)
         elif collecting:
-            break                       # stop at first non-table line
+            break
     return "\n".join(lines) + "\n\n"
+
+def write_pillar_md(pid, entries):
+    """Write docs/_tmp_T#.md."""
+    path = OUT_PILLAR.with_name(f"_tmp_{pid}.md")
+    with open(path, "w", encoding="utf8") as out:
+        out.write('<link rel="stylesheet" href="style.css">\n\n')
+        out.write(f"# {pid} — {PILLAR_NAMES[pid]}\n\n")
+        for e in entries:
+            bullet = f"- **{e.get('author','?')} ({e.get('year','?')})**. *{e.get('title','?')}*."
+            url = e.get("doi") or e.get("url") or ""
+            if url:
+                bullet += f" [{url}]({url})"
+            out.write(textwrap.fill(bullet, width=95) + "\n")
+        out.write("\n")
 
 # ---------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------
 def main():
     db = bibtexparser.load(open(BIB, encoding="utf8"))
+    grouped = {k: [] for k in PILLAR_NAMES}
+    missing = []
 
-    grouped, missing = {k: [] for k in PILLAR_NAMES}, []
-    for entry in db.entries:
-        m = re.match(r"\s*(T[1-8])\b", entry.get("keywords", ""))
+    for e in db.entries:
+        m = re.match(r"\s*(T[1-8])\b", e.get("keywords", ""))
         if not m:
-            missing.append(entry["ID"])
+            missing.append(e["ID"])
             continue
-        grouped[m.group(1)].append(entry)
+        grouped[m.group(1)].append(e)
 
     if missing:
         sys.stderr.write("❌ Missing Pillar tag for: " + ", ".join(missing) + "\n")
         sys.exit(1)
 
-    with open(OUT, "w", encoding="utf8") as out:
-        # H1 comes from pandoc --metadata title.  Add stylesheet link.
+    # Write all-in-one page
+    with open(OUT_ALL, "w", encoding="utf8") as out:
         out.write('<link rel="stylesheet" href="style.css">\n\n')
         out.write(load_taxonomy_table())
-
-        # Write each Pillar section
         for pid in PILLAR_NAMES:
-            entries = grouped[pid]
-            if not entries:
+            if not grouped[pid]:
                 continue
             out.write(f"## {pid} — {PILLAR_NAMES[pid]}\n\n")
-            for e in sorted(entries, key=lambda x: (x.get("year","9999"), x["ID"])):
+            for e in grouped[pid]:
                 url = e.get("doi") or e.get("url") or ""
                 bullet = f"- **{e.get('author','?')} ({e.get('year','?')})**. *{e.get('title','?')}*."
                 if url:
                     bullet += f" [{url}]({url})"
                 out.write(textwrap.fill(bullet, width=95) + "\n")
             out.write("\n")
+
+    # Write per-pillar pages
+    for pid in PILLAR_NAMES:
+        if grouped[pid]:
+            write_pillar_md(pid, grouped[pid])
 
 if __name__ == "__main__":
     main()

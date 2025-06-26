@@ -27,11 +27,19 @@ jobs:
       - name: Convert Markdown → HTML
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y pandoc          # no TeX needed for pure HTML
+          sudo apt-get install -y pandoc
+          # full page
           pandoc docs/_tmp_references.md -s -o references.html \
                 --metadata title="Crew-Bidding References by Pillar" \
-                --css style.css                   # ← attaches the stylesheet
+                --css style.css
+          # one page per pillar
+          for P in T1 T2 T3 T4 T5 T6 T7 T8; do
+            pandoc docs/_tmp_${P}.md -s -o ${P}.html \
+                  --metadata title="Crew-Bidding References — ${P}" \
+                  --css style.css
+          done
           cp references.html index.html           # ← keeps root URL optional
+          
 
       - name: Commit artefact
         run: |
