@@ -32,13 +32,12 @@
 
 ### 📄 Commit Message Conventions
 
-| Prefix | Use for … | Example |
-|--------|-----------|---------|
-| `feat:` | new paper entries | `feat: add Gamache1998PBSAirCanada` |
-| `docs:` | updates to README, TAXONOMY, cheatsheet | `docs: clarify tagging rules` |
-| `ci:`   | workflow or hook changes | `ci: cache pandoc layer` |
-| `chore:`| routine repo upkeep | `chore: tidy bib formatting` |
-
+| Prefix   | Use for …                              | Example                                 |
+|----------|----------------------------------------|-----------------------------------------|
+| `feat:`  | new paper entries                      | `feat: add Gamache1998PBSAirCanada`     |
+| `docs:`  | updates to README, TAXONOMY, cheatsheet| `docs: clarify tagging rules`           |
+| `ci:`    | workflow or hook changes               | `ci: cache pandoc layer`                |
+| `chore:` | routine repo upkeep                    | `chore: tidy bib formatting`            |
 
 🧐 Need help?
 Keyword / Pillar questions → open a Discussion or check docs/TAXONOMY.md.
