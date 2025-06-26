@@ -41,12 +41,13 @@ jobs:
             fi
           done
           cp references.html index.html           # ← keeps root URL optional
-          
 
       - name: Commit artefact
         run: |
           git config --global user.email "ci@agileaerosystems.com"
           git config --global user.name  "AA-CI Bot"
-          git add references.html
-          git diff --cached --quiet || git commit -m "chore: auto-render refs [skip ci]"
+          git add *.html                 # ← stage references.html + T1.html … T8.html
+          git diff --cached --quiet || \
+            git commit -m "chore: auto-render refs [skip ci]"
           git push
+
