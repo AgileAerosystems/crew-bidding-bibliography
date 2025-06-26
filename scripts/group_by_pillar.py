@@ -23,13 +23,20 @@ PILLAR_NAMES = {
 CSS = """
 <style>
 body   { max-width: 95%; margin: 2rem auto; font-family: sans-serif; }
-table  { width: 100%; border-collapse: collapse; }
+table  { width: 100%; border-collapse: collapse; table-layout: fixed; }
 th, td { padding: 0.4rem 0.6rem; border: 1px solid #ccc; }
+
+th:nth-child(1), td:nth-child(1) { text-align: center;  width: 10%; }  /* Pillar ID */
+th:nth-child(2), td:nth-child(2) {                       width: 20%; }  /* Name      */
+th:nth-child(3), td:nth-child(3) {                       width: 30%; }  /* Why / Scope */
+th:nth-child(4), td:nth-child(4) {                       width: 40%; }  /* Typical Qs */
+
 @media (max-width: 600px) {
-  table { display: block; overflow-x: auto; }
+  table { display: block; overflow-x: auto; }            /* mobile scroll */
 }
 </style>
 """
+
 
 TAXONOMY_TABLE = """
 | Pillar&nbsp;ID | Name                                   | Why it Exists / Scope (one-liner)                                                   | Typical Questions Answered |
