@@ -18,7 +18,8 @@ for e in db.entries:
         url = "https://doi.org/" + url
     try:
         r = requests.head(url, allow_redirects=True, timeout=10)
-        if r.status_code >= 400:
+        # treat 401/403 (publisher blocks) as OK; fail on 404, 5xx, etc.
+        if r.status_code >= 400 and r.status_code not in (401, 403):
             bad.append((e["ID"], url, r.status_code))
     except Exception as err:
         bad.append((e["ID"], url, str(err)))
