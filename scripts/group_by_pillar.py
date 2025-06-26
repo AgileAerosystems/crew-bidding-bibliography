@@ -20,6 +20,20 @@ PILLAR_NAMES = {
     "T8": "Emerging Frontiers",
 }
 
+TAXONOMY_TABLE = """
+| Pillar&nbsp;ID | Name                                   | Why it Exists / Scope (one-liner)                                                   | Typical Questions Answered |
+|---------------|----------------------------------------|-------------------------------------------------------------------------------------|----------------------------|
+| **T1** | Foundations & Regulatory Context       | Mathematical formulations, FAR/CAA rules, constraint typologies                     | What are the baseline legal or optimisation constraints? |
+| **T2** | Algorithmic Advances                   | Exact, heuristic, metaheuristic, lexicographic, multi-objective, decomposition      | Which algorithms solved it best at the time? |
+| **T3** | Systems & Operational Implementations  | Real-world PBS deployments, integrated pairing-rostering engines, vendor white papers | How did an airline or vendor make it work in production? |
+| **T4** | Data & Benchmark Resources             | Public datasets, synthetic generators, simulation frameworks                        | Where can I get test instances or evaluate my solver? |
+| **T5** | Survey & Synthesis                     | Literature reviews, taxonomies, meta-analyses                                       | What’s the state-of-the-art as of 20XX? |
+| **T6** | AI & Data-Driven Methods               | Reinforcement learning, hyper-heuristics, predictive delay models, generative scheduling | How is ML/AI augmenting or replacing classic optimisation? |
+| **T7** | Extensions & Inter-Domain Innovations  | Robust/stochastic, equity/fatigue, fairness, disruption recovery, sustainability    | How does the core model adapt to special goals or shocks? |
+| **T8** | Emerging Frontiers                     | Concept papers, patents, preprints < 3 yrs old (LLM co-pilots, quantum, digital twins) | What might matter in five years? |
+"""
+
+
 def main():
     with open(BIB, encoding="utf8") as fh:
         db = bibtexparser.load(fh)
@@ -42,6 +56,7 @@ def main():
 
     with open(OUT, "w", encoding="utf8") as out:
         out.write("# Crew-Bidding & Scheduling References\n\n")
+        out.write(TAXONOMY_TABLE + "\n\n")      # <- add taxonomy table
         for pid, entries in grouped.items():
             if not entries:               # skip empty sections
                 continue
