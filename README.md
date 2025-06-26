@@ -20,8 +20,8 @@
 
 🌐 **Live references page:** <https://agileaerosystems.github.io/crew-bidding-bibliography/references.html>
 
-| **T2** | [Algorithmic Advances](T2-Algorithmic-Advances.html) | … | … |
-| **T7** | [Extensions-and-Inter-Domain-Innovations](T7-Extensions-and-Inter-Domain-Innovations.html) | … | … |
+| **T2** | [Algorithmic Advances](T2-Algorithmic-Advances.html) \n
+| **T7** | [Extensions-and-Inter-Domain-Innovations](T7-Extensions-and-Inter-Domain-Innovations.html)
 
 **Status:** link-only mode, community-maintained  
 
