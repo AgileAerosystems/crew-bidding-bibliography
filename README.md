@@ -6,7 +6,7 @@
 
 ## 📚 Quick Pillar Directory (Evergreen Taxonomy)
 
-| 🌐 Pillar                                                                                             | Name                                   | Why it Exists / Scope (one-liner)                                            | Typical Questions Answered                               |
+| Pillar 🌐                                                                                            | Name                                   | Why it Exists / Scope (one-liner)                                            | Typical Questions Answered                               |
 |----------------------------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------|
 | [T1](https://agileaerosystems.github.io/crew-bidding-bibliography/T1-Foundations-and-Regulatory-Context.html) | Foundations & Regulatory Context       | Mathematical formulations, FAR/CAA rules, constraint typologies              | What are the baseline legal or optimisation constraints? |
 | [T2](https://agileaerosystems.github.io/crew-bidding-bibliography/T2-Algorithmic-Advances.html)           | Algorithmic Advances                   | Exact, heuristic, metaheuristic, lexicographic, multi-objective, decomposition| Which algorithms solved it best at the time?             |
