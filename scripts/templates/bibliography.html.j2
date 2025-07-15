@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ title }}</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+<style>
+body{font-family:system-ui,Segoe UI,Helvetica,Arial,sans-serif;margin:2rem;line-height:1.5}
+h1,h2{color:#0b4e8a}
+a{color:#0b4e8a;text-decoration:none}
+a:hover{text-decoration:underline}
+.ref{margin:0 0 1rem 0}
+.meta{font-size:0.9em;color:#555}
+</style>
+</head>
+<body>
+<h1>{{ title }}</h1>
+
+{% if index %}
+<h2>Pillars</h2>
+<ul>
+{% for pillar, href in pillar_pages %}
+  <li><a href="{{ href }}">{{ pillar }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p><a href="index.html">← Back to Pillar directory</a></p>
+{% for r in refs %}
+  <div class="ref">
+    <strong>{{ r.author }} ({{ r.year }})</strong><br>
+    {% if r.title %}{{ r.title }}<br>{% endif %}
+    {% if r.journal %}<span class="meta">{{ r.journal }}</span>{% endif %}
+    {% if r.doi %}<br><a href="https://doi.org/{{ r.doi }}">https://doi.org/{{ r.doi }}</a>{% endif %}
+  </div>
+{% endfor %}
+{% endif %}
+
+<hr>
+<p class="meta">Generated {{ generated }}</p>
+</body>
+</html>

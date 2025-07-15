@@ -1,0 +1,1700 @@
+[
+  {
+    "raw": "Abara (1989)",
+    "author": "Abara",
+    "year": "1989",
+    "description": "Introduced the connection network for the fleet assignment problem (FAP) and used integer linear programming [14, 104].",
+    "keywords": [
+      "T2",
+      "connection-network",
+      "integer-programming",
+      "FAP"
+    ],
+    "doi": "10.1287/inte.19.4.20",
+    "title": "Applying Integer Linear Programming to the Fleet Assignment Problem",
+    "journal": "Interfaces",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Ageeva (2000)",
+    "author": "Ageeva",
+    "year": "2000",
+    "description": "Improved schedule robustness by creating more swap opportunities between aircraft routes, proposing a heuristic approach [66, 104].",
+    "keywords": [
+      "T7",
+      "robust",
+      "swap-opportunities",
+      "heuristic"
+    ],
+    "doi": "10.1007/bf02681926",
+    "title": "Calculation of the fundamental frequencies of a rotating long vertical rod",
+    "journal": "International Applied Mechanics",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "AhmadBeygi et al. (2009)",
+    "author": "AhmadBeygi et al.",
+    "year": "2009",
+    "description": "Developed an integer programming approach for generating airline crew pairings [105]. Their approach was later modified by Antunes et al. (2019) for robust pairing [85].",
+    "keywords": [
+      "T2",
+      "integer-programming",
+      "crew-pairing",
+      "CPP"
+    ],
+    "doi": "10.1002/chin.200948186",
+    "title": "ChemInform Abstract: Synthesis and SAR Study of Novel Pseudosteroids as Potent and Selective Progesterone Receptor Antagonists.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Antunes et al. (2019)",
+    "author": "Antunes et al.",
+    "year": "2019",
+    "description": "Formulated a robust pairing model for airline crew scheduling using robust optimization to capture the full complexity of crew salary structure and duty/pairing elapsed times [85, 105]. It uses column generation [85].",
+    "keywords": [
+      "T7",
+      "robust",
+      "crew-pairing",
+      "robust-optimization",
+      "column-generation"
+    ],
+    "doi": "10.36103/ijas.v50ispecial.184",
+    "title": "PROTEIN EFFICIENCY IN JAPANESE QUAIL  (Coturnix-coturnix Japonica) FED  FERMENTED PALM KERNEL CAKE BY ( Aspergillus niger)",
+    "journal": "IRAQI JOURNAL OF AGRICULTURAL SCIENCES",
+    "publisher": "University of Baghdad - College of Agriculture"
+  },
+  {
+    "raw": "Arabeyre et al. (1969)",
+    "author": "Arabeyre et al.",
+    "year": "1969",
+    "description": "Provided a survey of the airline crew scheduling problem [69, 105].",
+    "keywords": [
+      "T5",
+      "survey",
+      "crew-scheduling",
+      "CSP"
+    ],
+    "doi": "10.33137/pbsc.v49i1.21941",
+    "title": "HCI-Book? Perspectives on E-Book Research, 2006-2008 (Foundational to Implementing New Knowledge Environments) (pp 35-89)",
+    "journal": "Papers of The Bibliographical Society of Canada",
+    "publisher": "University of Toronto Libraries - UOTL"
+  },
+  {
+    "raw": "Barnhart and Cohn (2004)",
+    "author": "Barnhart and Cohn",
+    "year": "2004",
+    "description": "Discussed airline schedule planning: accomplishments and opportunities, highlighting the tremendous challenge of profit-maximising schedules for airlines [8, 107].",
+    "keywords": [
+      "T5",
+      "survey",
+      "schedule-planning",
+      "profit-maximisation"
+    ],
+    "doi": "10.1287/msom.1030.0018",
+    "title": "Airline Schedule Planning: Accomplishments and Opportunities",
+    "journal": "Manufacturing &amp; Service Operations Management",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Barnhart and Shenoi (1998)",
+    "author": "Barnhart and Shenoi",
+    "year": "1998",
+    "description": "Developed an approximate model and solution approach for the long-haul crew pairing problem, showing it can speed up the traditional model's solution process by 84% [76, 108].",
+    "keywords": [
+      "T2",
+      "approximate-model",
+      "crew-pairing",
+      "long-haul"
+    ],
+    "doi": "10.1287/trsc.32.3.221",
+    "title": "An Approximate Model and Solution Approach for the Long-Haul Crew Pairing Problem",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Barnhart and Smith (2012)",
+    "author": "Barnhart and Smith",
+    "year": "2012",
+    "description": "Defined airline products by their schedule planning, noted the complexity of ARP with maintenance requirements, and described the preference bidding process in CRP [9, 34, 69, 108]. This is a book or handbook [108].",
+    "keywords": [
+      "T1",
+      "schedule-planning",
+      "maintenance-requirements",
+      "preferential-bidding-system"
+    ],
+    "doi": "10.1201/b12513",
+    "title": "Creating a Lean R&amp;D System",
+    "journal": "",
+    "publisher": "Productivity Press"
+  },
+  {
+    "raw": "Barnhart et al. (1995)",
+    "author": "Barnhart et al.",
+    "year": "1995",
+    "description": "Described the essential role of deadhead in long-haul operations for the crew pairing problem, noting many legs could be deadhead candidates [80, 108].",
+    "keywords": [
+      "T7",
+      "deadhead",
+      "long-haul-operations",
+      "crew-pairing"
+    ],
+    "doi": "10.1093/jnci/87.21.1643",
+    "title": "\"Detection of K-ras Oncogene Mutations in Bronchoalveolar Lavage Fluid for Lung Cancer Diagnosis\"",
+    "journal": "JNCI Journal of the National Cancer Institute",
+    "publisher": "Oxford University Press (OUP)"
+  },
+  {
+    "raw": "Barnhart et al. (1998)",
+    "author": "Barnhart et al.",
+    "year": "1998",
+    "description": "Introduced the string-based model for aircraft fleeting and routing [44, 106]. Used column generation and branch-and-price algorithms. Does not distinguish individual aircraft of the same fleet [45, 46]. Also proposed a string-based integrated model of FAP and ARP to ensure maintenance feasibility and capture through-revenues [88, 106].",
+    "keywords": [
+      "T2",
+      "string-based-model",
+      "column-generation",
+      "branch-and-price",
+      "FAP",
+      "ARP",
+      "integrated-model",
+      "through-revenues"
+    ],
+    "doi": "10.1002/chin.199849121",
+    "title": "ChemInform Abstract: Discovery and Preclinical Pharmacology of a Novel, Potent, Nonsteroidal Estrogen Receptor Agonist/Antagonist, CP‐336156, a Diaryltetrahydronaphthalene.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Barnhart et al. (2002)",
+    "author": "Barnhart et al.",
+    "year": "2002",
+    "description": "Provided a general formulation of CPP as a set partitioning problem (SPP) [72, 107]. Also discussed the basic CRM (Crew Rostering Model) [77] and gave details on crew cost formulation [70] and crew regulations [71].",
+    "keywords": [
+      "T1",
+      "crew-pairing",
+      "crew-rostering",
+      "set-partitioning",
+      "formulation",
+      "crew-cost",
+      "crew-regulations"
+    ],
+    "doi": "10.1002/chin.200220120",
+    "title": "ChemInform Abstract: 3‐Benzamido, Ureido and Thioureidoimidazo[1,2‐a]pyridine Derivatives as Potential Antiviral Agents.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Barnhart et al. (2009)",
+    "author": "Barnhart et al.",
+    "year": "2009",
+    "description": "Handled more comprehensive and realistic revenue functions compared with IFAM to capture spill and transfer demand in FAM. Solved by decomposing the entire network into small sub-networks [33, 107].",
+    "keywords": [
+      "T7",
+      "revenue-management",
+      "demand-spill",
+      "network-decomposition",
+      "FAP"
+    ],
+    "doi": "10.1002/chin.200914273",
+    "title": "ChemInform Abstract: Molecular Engineering of DNA: Molecular Beacons",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Başdere and Bilge (2014)",
+    "author": "Başdere and Bilge",
+    "year": "2014",
+    "description": "Incorporated fleet homogeneity into the weekly FAM, aiming to maximise profit and promote homogeneity by penalising fleet difference. Developed a heuristic approach [22, 23, 109].",
+    "keywords": [
+      "T7",
+      "fleet-homogeneity",
+      "weekly-schedule",
+      "FAP",
+      "heuristic"
+    ],
+    "doi": "10.1016/j.ejor.2013.10.066",
+    "title": "Operational aircraft maintenance routing problem with remaining time consideration",
+    "journal": "European Journal of Operational Research",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Belobaba et al. (2009)",
+    "author": "Belobaba et al.",
+    "year": "2009",
+    "description": "Noted the complexity of profit-maximising schedules [8]. Mentioned the sequential division of airline scheduling problems, including FAP, ARP, CSP [9]. Defined a pairing as a sequence of legs spanning 1-5 days beginning and ending at the same crewbase [69]. This is a book or handbook [110].",
+    "keywords": [
+      "T1",
+      "schedule-planning",
+      "FAP",
+      "ARP",
+      "CSP",
+      "crew-pairing",
+      "complexity"
+    ],
+    "doi": "10.1002/9780470744734.ch6",
+    "title": "The Airline Planning Process",
+    "journal": "The Global Airline Industry",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Berge and Hopperstad (1993)",
+    "author": "Berge and Hopperstad",
+    "year": "1993",
+    "description": "Related to the time-space network for FAP and used a heuristic [38, 110].",
+    "keywords": [
+      "T2",
+      "time-space-network",
+      "heuristic",
+      "FAP"
+    ],
+    "doi": "10.1287/opre.41.1.153",
+    "title": "Demand Driven Dispatch: A Method for Dynamic Aircraft Capacity Assignment, Models and Algorithms",
+    "journal": "Operations Research",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Burke et al. (2010)",
+    "author": "Burke et al.",
+    "year": "2010",
+    "description": "Considered schedule reliability and aircraft swap opportunities in ARP, defining reliability in terms of delay probability. Proposed a multi-objective approach based on hybrid genetic algorithms for robust scheduling [66, 111].",
+    "keywords": [
+      "T7",
+      "robust-scheduling",
+      "aircraft-swap",
+      "multi-objective",
+      "genetic-algorithms",
+      "ARP"
+    ]
+  },
+  {
+    "raw": "Cacchiani and Salazar-González (2017)",
+    "author": "Cacchiani and Salazar-González",
+    "year": "2017",
+    "description": "Focused on integrated airline scheduling problems and penalised the number of aircraft changes in crew pairings. Proposed two alternative formulations for the integrated problem: path-based for aircraft routes/crew pairings, and arc-based for aircraft routes with path-based for crew pairings [95, 99, 111].",
+    "keywords": [
+      "T3",
+      "integrated-scheduling",
+      "aircraft-changes",
+      "formulation",
+      "path-based",
+      "arc-based"
+    ],
+    "doi": "10.1287/trsc.2015.0655",
+    "title": "Optimal Solutions to a Real-World Integrated Airline Scheduling Problem",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Cacchiani and Salazar-González (2020)",
+    "author": "Cacchiani and Salazar-González",
+    "year": "2020",
+    "description": "Investigated heuristic approaches for flight retiming in an integrated airline scheduling problem for a regional carrier, aiming to decrease the number of aircraft changes in crew pairings [100, 111].",
+    "keywords": [
+      "T3",
+      "integrated-scheduling",
+      "flight-retiming",
+      "aircraft-changes",
+      "regional-carrier",
+      "heuristic"
+    ],
+    "doi": "10.1016/j.omega.2019.01.006",
+    "title": "Heuristic approaches for flight retiming in an integrated airline scheduling problem of a regional carrier",
+    "journal": "Omega",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Cadarso and de Celis (2017)",
+    "author": "Cadarso and de Celis",
+    "year": "2017",
+    "description": "Noted the complexity of airline scheduling due to complex regulations related to crew fatigue control, and air traffic control [9, 112].",
+    "keywords": [
+      "T1",
+      "crew-fatigue",
+      "regulations",
+      "air-traffic-control"
+    ],
+    "doi": "10.1016/j.trc.2017.06.003",
+    "title": "Integrated airline planning: Robust update of scheduling and fleet balancing under demand uncertainty",
+    "journal": "Transportation Research Part C: Emerging Technologies",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Cappanera and Gallo (2004)",
+    "author": "Cappanera and Gallo",
+    "year": "2004",
+    "description": "Focused on the crew rostering problem, where the objective could be to find a feasible solution by minimising the number or duration of uncovered activities [78, 112].",
+    "keywords": [
+      "T7",
+      "crew-rostering",
+      "CRP",
+      "feasibility"
+    ],
+    "doi": "10.1287/opre.1040.0110",
+    "title": "A Multicommodity Flow Approach to the Crew Rostering Problem",
+    "journal": "Operations Research",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Clarke et al. (1996)",
+    "author": "Clarke et al.",
+    "year": "1996",
+    "description": "Considered maintenance and crew considerations in fleet assignment [112]. Proposed a lower bound on aircraft overnighting at maintenance airports and flights departing from crewbases in an enhanced FAM [99]. They also consider Type B maintenance checks in ARP [42].",
+    "keywords": [
+      "T3",
+      "FAP",
+      "ARP",
+      "crew-considerations",
+      "maintenance",
+      "enhanced-model",
+      "fleet-assignment"
+    ]
+  },
+  {
+    "raw": "Clarke et al. (1997)",
+    "author": "Clarke et al.",
+    "year": "1997",
+    "description": "Aimed to construct specific aircraft routes (rotations) satisfying maintenance requirements [34, 113]. Also discussed the Euler-tour requirement to balance wear and tear among aircraft of the same fleet [67]. Addressed Type B maintenance checks [42]. Their computational capacity was 2246 arcs solved in 32s [64].",
+    "keywords": [
+      "T3",
+      "aircraft-routing",
+      "ARP",
+      "maintenance",
+      "Euler-tour",
+      "aircraft-utilisation"
+    ],
+    "doi": "10.1002/chin.199749058",
+    "title": "ChemInform Abstract: Stereoselective Ring Opening of Electronically Excited Cyclohexa‐2,4‐ dienones: Cause and Effect.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Cohn and Barnhart (2003)",
+    "author": "Cohn and Barnhart",
+    "year": "2003",
+    "description": "Improved crew scheduling by incorporating key maintenance routing decisions, using a unique and maximal (UM) maintenance-feasible short connection set to represent ARP solutions and incorporate ARP into CPP [95, 113].",
+    "keywords": [
+      "T3",
+      "integrated-scheduling",
+      "crew-scheduling",
+      "maintenance-routing",
+      "short-connection",
+      "ARP",
+      "CPP"
+    ],
+    "doi": "10.1287/opre.51.3.387.14959",
+    "title": "Improving Crew Scheduling by Incorporating Key Maintenance Routing Decisions",
+    "journal": "Operations Research",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Cordeau et al. (2001)",
+    "author": "Cordeau et al.",
+    "year": "2001",
+    "description": "Integrated the set-partitioning models of ARP and CPP through linking constraints (short connections), ensuring a short connection can be covered by a pairing only if by an aircraft route. Used Benders’ decomposition [93, 94, 113].",
+    "keywords": [
+      "T3",
+      "integrated-scheduling",
+      "ARP",
+      "CPP",
+      "short-connection",
+      "set-partitioning",
+      "benders-decomposition"
+    ],
+    "doi": "10.1002/chin.200116159",
+    "title": "ChemInform Abstract: Bioisosteres of 9‐Carboxymethyl‐4‐oxo‐imidazo[1,2‐a]indeno[1,2‐e]pyrazin‐2‐carboxylic Acid Derivatives. Progress Towards Selective, Potent in vivo AMPA Antagonists with Longer Durations of Action.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Daskin and Panayotopoulos (1989)",
+    "author": "Daskin and Panayotopoulos",
+    "year": "1989",
+    "description": "Used a Lagrangian relaxation approach for assigning aircraft to routes in hub and spoke networks [113].",
+    "keywords": [
+      "T2",
+      "Lagrangian-relaxation",
+      "hub-and-spoke",
+      "FAP"
+    ],
+    "doi": "10.1287/trsc.23.2.91",
+    "title": "A Lagrangian Relaxation Approach to Assigning Aircraft to Routes in Hub and Spoke Networks",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Dawid et al. (2001)",
+    "author": "Dawid et al.",
+    "year": "2001",
+    "description": "Presented an enhanced rostering model for airline crews that considers downgrading (captain flying as first officer) to provide more flexibility [82, 114].",
+    "keywords": [
+      "T7",
+      "crew-rostering",
+      "downgrading",
+      "flexibility"
+    ]
+  },
+  {
+    "raw": "Desaulniers et al. (1997)",
+    "author": "Desaulniers et al.",
+    "year": "1997",
+    "description": "Focused on crew pairing at Air France [105]. This is cited as a basic crew pairing problem example [150].",
+    "keywords": [
+      "T3",
+      "crew-pairing",
+      "airline-case-study"
+    ]
+  },
+  {
+    "raw": "Deveci and Demirel (2015)",
+    "author": "Deveci and Demirel",
+    "year": "2015",
+    "description": "Conducted a review of the airline crew pairing problem (CPP), emphasising recent studies and solution methodologies [11, 114].",
+    "keywords": [
+      "T5",
+      "crew-pairing",
+      "CPP",
+      "literature-review",
+      "solution-methodologies"
+    ],
+    "doi": "10.1016/j.jngse.2015.09.004",
+    "title": "Fuzzy multi-criteria decision making for carbon dioxide geological storage in Turkey",
+    "journal": "Journal of Natural Gas Science and Engineering",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Doi et al. (2018)",
+    "author": "Doi et al.",
+    "year": "2018",
+    "description": "Penalised the deviation of assigned workload to promote fairness among all crew members in the CRP [78, 115].",
+    "keywords": [
+      "T7",
+      "crew-rostering",
+      "fairness",
+      "workload-balancing"
+    ],
+    "doi": "10.24247/ijeefusoct20183",
+    "title": "The Conflict of Interest Between People and Corporation in the Construction Project of Apartment in Yogyakarta Indonesia a Socio-Legal Perspective",
+    "journal": "International Journal of Environment, Ecology, Family and Urban Studies",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Dunbar et al. (2012)",
+    "author": "Dunbar et al.",
+    "year": "2012",
+    "description": "Focused on minimising propagated delay in an integrated routing and crewing framework for robust airline schedule planning. Developed an iterative approach based on column generation [61, 97, 115].",
+    "keywords": [
+      "T7",
+      "robust-scheduling",
+      "propagated-delay",
+      "integrated-model",
+      "aircraft-routing",
+      "crew-pairing",
+      "column-generation",
+      "iterative-method"
+    ],
+    "doi": "10.1002/chin.201241193",
+    "title": "ChemInform Abstract: Millifolides A—C. New 1,10‐Seco‐guaianolides from the Flowers of Achillea millefolium.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Dunbar et al. (2014)",
+    "author": "Dunbar et al.",
+    "year": "2014",
+    "description": "Developed an integrated scenario-based approach for robust aircraft routing, crew pairing, and re-timing [115]. Their local approach was outperformed by Yan and Kung (2018) [66].",
+    "keywords": [
+      "T7",
+      "robust-scheduling",
+      "aircraft-routing",
+      "crew-pairing",
+      "re-timing",
+      "scenario-based"
+    ],
+    "doi": "10.1002/chin.201427221",
+    "title": "ChemInform Abstract: Biosynthesis of Thiomarinol A (I) and Related Metabolites of Pseudoalteromonas sp. SANK 73390.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Eltoukhy et al. (2017)",
+    "author": "Eltoukhy et al.",
+    "year": "2017",
+    "description": "Reviewed the literature on the four sub-problems of airline planning [11, 116].",
+    "keywords": [
+      "T5",
+      "airline-planning",
+      "sub-problems",
+      "literature-review"
+    ],
+    "doi": "10.24247/ijbtrdec20172",
+    "title": "Development of Synbiotic Whey Drink",
+    "journal": "International Journal of Bio-Technology and Research",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Farkas (1996)",
+    "author": "Farkas",
+    "year": "1996",
+    "description": "Incorporated itinerary-based demand in the time-space FAM to capture network effects. Presented column generation and a heuristic approach that partitions flight legs into sub-networks [26-28, 116].",
+    "keywords": [
+      "T2",
+      "itinerary-based-demand",
+      "time-space-network",
+      "FAP",
+      "column-generation",
+      "heuristic",
+      "network-effects"
+    ],
+    "doi": "10.1007/bf01980925",
+    "title": "Application of differential scanning calorimetry in food research and food quality assurance",
+    "journal": "Journal of Thermal Analysis",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "Feo and Bard (1989)",
+    "author": "Feo and Bard",
+    "year": "1989",
+    "description": "Assumed maintenance should be performed within a fixed duration based on calendar days [43]. Considered in the ARP as a daily check at night [37, 117].",
+    "keywords": [
+      "T1",
+      "maintenance-requirements",
+      "calendar-days",
+      "aircraft-routing",
+      "ARP"
+    ],
+    "doi": "10.1287/mnsc.35.12.1415",
+    "title": "Flight Scheduling and Maintenance Base Planning",
+    "journal": "Management Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Froyland et al. (2014)",
+    "author": "Froyland et al.",
+    "year": "2014",
+    "description": "Focused on the recoverable robust tail assignment problem. Used string-based network for propagated delay minimisation [61, 117].",
+    "keywords": [
+      "T7",
+      "robust",
+      "tail-assignment",
+      "propagated-delay",
+      "string-based-network"
+    ],
+    "doi": "10.1002/chin.201427221",
+    "title": "ChemInform Abstract: Biosynthesis of Thiomarinol A (I) and Related Metabolites of Pseudoalteromonas sp. SANK 73390.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Gamache et al. (1999)",
+    "author": "Gamache et al.",
+    "year": "1999",
+    "description": "Used a column generation approach for large-scale aircrew rostering problems, with an objective to minimise uncovered activities [78, 117].",
+    "keywords": [
+      "T2",
+      "column-generation",
+      "crew-rostering",
+      "large-scale"
+    ],
+    "doi": "10.1002/chin.199926126",
+    "title": "ChemInform Abstract: Combined NK<sub>1</sub> and NK<sub>2</sub> Tachykinin Receptor Antagonists: Synthesis and Structure—Activity Relationships of Novel Oxazolidine Analogues.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Gamache et al. (1998)",
+    "author": "Gamache et al.",
+    "year": "1998",
+    "description": "Focused on The Preferential Bidding System at Air Canada. [151-154].",
+    "keywords": [
+      "T3",
+      "preferential-bidding-system",
+      "airline-case-study"
+    ],
+    "doi": "10.1002/chin.199849121",
+    "title": "ChemInform Abstract: Discovery and Preclinical Pharmacology of a Novel, Potent, Nonsteroidal Estrogen Receptor Agonist/Antagonist, CP‐336156, a Diaryltetrahydronaphthalene.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Gao et al. (2009)",
+    "author": "Gao et al.",
+    "year": "2009",
+    "description": "Considered daily schedule assumption in the airline literature [22]. Extended the station purity idea to crewbase purity [84]. Integrated FAP and CPP to obtain a robust schedule, defining crew connections instead of explicit pairings for tractability [93, 118].",
+    "keywords": [
+      "T7",
+      "robust-scheduling",
+      "FAP",
+      "CPP",
+      "integrated-model",
+      "station-purity",
+      "crewbase-purity"
+    ]
+  },
+  {
+    "raw": "Gopalakrishnan and Johnson (2005)",
+    "author": "Gopalakrishnan and Johnson",
+    "year": "2005",
+    "description": "Defined a pairing as a sequence of legs spanning 1-5 days that begin and end at the same crewbase [69, 118].",
+    "keywords": [
+      "T1",
+      "crew-pairing",
+      "definition"
+    ],
+    "doi": "10.1007/s10479-005-3975-3",
+    "title": "Airline Crew Scheduling: State-of-the-Art",
+    "journal": "Annals of Operations Research",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "Gopalan and Talluri (1998)",
+    "author": "Gopalan and Talluri",
+    "year": "1998",
+    "description": "Discussed the aircraft maintenance routing problem (AMRP). Stated that the Euler-tour requirement is often applied to ARP [67, 118]. Their computational capacity for string-based model was 12 Aft/33 Leg [64].",
+    "keywords": [
+      "T3",
+      "aircraft-maintenance-routing",
+      "Euler-tour",
+      "string-based-model"
+    ],
+    "doi": "10.1023/a:1018988203220",
+    "title": "Mathematical models in airline schedule planning: A survey",
+    "journal": "Annals of Operations Research",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "Guo et al. (2006)",
+    "author": "Guo et al.",
+    "year": "2006",
+    "description": "Incorporated preassigned activities (training, off-duty days, crew availability) into CPP, making it easier to solve CRP via a heuristic approach, achieving crew cost reduction [79, 118].",
+    "keywords": [
+      "T7",
+      "crew-pairing",
+      "crew-rostering",
+      "integrated-approach",
+      "preassigned-activities",
+      "heuristic"
+    ],
+    "doi": "10.1002/chin.200610238",
+    "title": "Two Classes of p38α MAP Kinase Inhibitors Having a Common Diphenylether Core but Exhibiting Divergent Binding Modes.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Hane et al. (1995)",
+    "author": "Hane et al.",
+    "year": "1995",
+    "description": "First proposed the time-space network for FAP [18, 119]. Used an interior-point algorithm and B&B (Branch & Bound) [38].",
+    "keywords": [
+      "T2",
+      "time-space-network",
+      "FAP",
+      "interior-point-algorithm",
+      "branch-and-bound"
+    ],
+    "doi": "10.1093/jnci/87.21.1643",
+    "title": "\"Detection of K-ras Oncogene Mutations in Bronchoalveolar Lavage Fluid for Lung Cancer Diagnosis\"",
+    "journal": "JNCI Journal of the National Cancer Institute",
+    "publisher": "Oxford University Press (OUP)"
+  },
+  {
+    "raw": "Haouari et al. (2009)",
+    "author": "Haouari et al.",
+    "year": "2009",
+    "description": "Developed a connection-based model for integrated aircraft fleeting and routing. Proposed a two-stage heuristic approach [89, 119].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "connection-network",
+      "two-stage-heuristic"
+    ],
+    "doi": "10.1002/chin.200948186",
+    "title": "ChemInform Abstract: Synthesis and SAR Study of Novel Pseudosteroids as Potent and Selective Progesterone Receptor Antagonists.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Haouari et al. (2011)",
+    "author": "Haouari et al.",
+    "year": "2011",
+    "description": "Presented two formulations for the integrated FAP and ARP, one connection-based and one route-based. Solved the connection-based with Benders’ decomposition and the route-based with branch-and-bound [89, 120].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "connection-based",
+      "route-based",
+      "Benders-decomposition",
+      "branch-and-bound",
+      "formulation"
+    ],
+    "doi": "10.1002/chin.201144139",
+    "title": "ChemInform Abstract: Asymmetric Synthesis and Biological Evaluations of (+)‐ and (‐)‐6‐Dimethoxymethyl‐1,4‐dihydropyridine‐3‐carboxylic Acid Derivatives Blocking N‐Type Calcium Channels.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Haouari et al. (2013)",
+    "author": "Haouari et al.",
+    "year": "2013",
+    "description": "Introduced additional decision variables to track maintenance indicators (e.g., accumulated flight hours) in a connection-based ARM. Used Reformulation and Linearization Technique (RLT) to solve non-linearities [50, 120]. Also considered A check as a daily check occurring every 65 FH [37, 42].",
+    "keywords": [
+      "T2",
+      "aircraft-maintenance-routing",
+      "connection-network",
+      "RLT",
+      "flight-hours",
+      "maintenance-indicators"
+    ],
+    "doi": "10.1002/chin.201319208",
+    "title": "ChemInform Abstract: Cytotoxic Quassinoids from Ailanthus altissima.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Haouari et al. (2019)",
+    "author": "Haouari et al.",
+    "year": "2019",
+    "description": "Introduced decision variables for crew connection (flying two consecutive legs by same crew) in a connection-based model for CPP. Presented a compact polynomial-sized nonlinear formulation, linearised using RLT [76, 120]. Solved a real-life instance with 336 daily flights in two hours [76].",
+    "keywords": [
+      "T2",
+      "crew-pairing",
+      "CPP",
+      "connection-network",
+      "nonlinear-formulation",
+      "RLT",
+      "real-world-instance"
+    ],
+    "doi": "10.36103/ijas.v50ispecial.184",
+    "title": "PROTEIN EFFICIENCY IN JAPANESE QUAIL  (Coturnix-coturnix Japonica) FED  FERMENTED PALM KERNEL CAKE BY ( Aspergillus niger)",
+    "journal": "IRAQI JOURNAL OF AGRICULTURAL SCIENCES",
+    "publisher": "University of Baghdad - College of Agriculture"
+  },
+  {
+    "raw": "Hoffman and Padberg (1993)",
+    "author": "Hoffman and Padberg",
+    "year": "1993",
+    "description": "Introduced base constraints (crewbase balancing constraints) to match workload to crew resource at a crewbase in CPP [74, 121].",
+    "keywords": [
+      "T7",
+      "crew-pairing",
+      "crewbase-balancing",
+      "base-constraints"
+    ],
+    "doi": "10.1287/mnsc.39.6.657",
+    "title": "Solving Airline Crew Scheduling Problems by Branch-and-Cut",
+    "journal": "Management Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Ioachim et al. (1999)",
+    "author": "Ioachim et al.",
+    "year": "1999",
+    "description": "Focused on the schedule synchronisation constraint (legs sharing same flight number depart simultaneously on different days) in fleet assignment and routing. Proposed a solution based on Dantzig–Wolfe decomposition [22, 122].",
+    "keywords": [
+      "T7",
+      "schedule-synchronisation",
+      "FAP",
+      "ARP",
+      "Dantzig-Wolfe-decomposition"
+    ],
+    "doi": "10.1002/chin.199926126",
+    "title": "ChemInform Abstract: Combined NK<sub>1</sub> and NK<sub>2</sub> Tachykinin Receptor Antagonists: Synthesis and Structure—Activity Relationships of Novel Oxazolidine Analogues.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Jacobs et al. (2008)",
+    "author": "Jacobs et al.",
+    "year": "2008",
+    "description": "Incorporated network flow effects into the airline fleet assignment process using an iterative algorithm [40, 123].",
+    "keywords": [
+      "T7",
+      "network-effects",
+      "FAP",
+      "iterative-algorithm"
+    ],
+    "doi": "10.1002/chin.200811146",
+    "title": "ChemInform Abstract: First Synthesis of 2,3,6,7‐Tetrabromonaphthalene Diimide.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Kasirzadeh et al. (2017)",
+    "author": "Kasirzadeh et al.",
+    "year": "2017",
+    "description": "Presented a comprehensive problem definition of CSP and reviewed existing problem formulations and solution methodologies [11, 123].",
+    "keywords": [
+      "T5",
+      "crew-scheduling",
+      "CSP",
+      "problem-definition",
+      "formulations",
+      "solution-methodologies",
+      "literature-review"
+    ],
+    "doi": "10.24247/ijbtrdec20172",
+    "title": "Development of Synbiotic Whey Drink",
+    "journal": "International Journal of Bio-Technology and Research",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Kenan et al. (2018)",
+    "author": "Kenan et al.",
+    "year": "2018",
+    "description": "Proposed a two-stage stochastic model for the integrated fleet assignment and aircraft routing model with flight selection to consider the randomness of passenger demand and flight delay. Flight selection helps improve robustness via buffer time reallocation [90, 123].",
+    "keywords": [
+      "T7",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "stochastic-programming",
+      "flight-selection",
+      "demand-uncertainty",
+      "delay-considerations",
+      "robustness",
+      "buffer-time"
+    ],
+    "doi": "10.24247/ijeefusoct20183",
+    "title": "The Conflict of Interest Between People and Corporation in the Construction Project of Apartment in Yogyakarta Indonesia a Socio-Legal Perspective",
+    "journal": "International Journal of Environment, Ecology, Family and Urban Studies",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Keysan et al. (2010)",
+    "author": "Keysan et al.",
+    "year": "2010",
+    "description": "Imposed limitations on the accumulated FH (or cycles) for maintenance requirements in ARP [43, 124].",
+    "keywords": [
+      "T1",
+      "maintenance-requirements",
+      "flight-hours",
+      "cycles",
+      "ARP"
+    ],
+    "doi": "10.1002/chin.201039025",
+    "title": "ChemInform Abstract: CaCu<sub>3</sub>Pt<sub>4</sub>O<sub>12</sub>: The First Perovskite with the B Site Fully Occupied by Pt<sup>4+</sup>.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Khaled et al. (2018)",
+    "author": "Khaled et al.",
+    "year": "2018",
+    "description": "Considered cumulative maintenance requirements in the time-space-based ARM by using additional variables and big-M constraints to monitor aircraft accumulated flight time and flying days without maintenance [58, 67, 124].",
+    "keywords": [
+      "T2",
+      "aircraft-routing",
+      "time-space-network",
+      "maintenance-requirements",
+      "big-M-constraints"
+    ],
+    "doi": "10.24247/ijeefusoct20183",
+    "title": "The Conflict of Interest Between People and Corporation in the Construction Project of Apartment in Yogyakarta Indonesia a Socio-Legal Perspective",
+    "journal": "International Journal of Environment, Ecology, Family and Urban Studies",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Klabjan et al. (2001)",
+    "author": "Klabjan et al.",
+    "year": "2001",
+    "description": "Presented a crew pairing model to make a trade-off between crew cost and regularity (flights not scheduled daily) [83, 124].",
+    "keywords": [
+      "T7",
+      "crew-pairing",
+      "cost-regularity-trade-off",
+      "irregular-schedules"
+    ]
+  },
+  {
+    "raw": "Klabjan et al. (2002)",
+    "author": "Klabjan et al.",
+    "year": "2002",
+    "description": "Integrated FAP and CPP with a plane-count constraint to ensure the number of aircraft used by crews does not exceed available aircraft. Designed two approaches: Lagrangian relaxation + column generation, and Benders’ decomposition [92, 125].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "CPP",
+      "plane-count-constraint",
+      "Lagrangian-relaxation",
+      "column-generation",
+      "benders-decomposition"
+    ],
+    "doi": "10.1002/chin.200222224",
+    "title": "ChemInform Abstract: CJ‐13,981 and CJ‐13,982, New Squalene Synthase Inhibitors.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Kohl and Karisch (2004)",
+    "author": "Kohl and Karisch",
+    "year": "2004",
+    "description": "Provides a more detailed description of typical rules and regulations for the crew rostering problem, including how rules and preferences are formulated via variables and constraints or optimised in the objective function [78, 125].",
+    "keywords": [
+      "T1",
+      "crew-rostering",
+      "regulations",
+      "rules",
+      "preferences",
+      "formulation"
+    ],
+    "doi": "10.1023/b:anor.0000019091.54417.ca",
+    "title": "Airline Crew Rostering: Problem Types, Modeling, and Optimization",
+    "journal": "Annals of Operations Research",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "Lan et al. (2006)",
+    "author": "Lan et al.",
+    "year": "2006",
+    "description": "Modified the string-based ARM to minimise total propagated delay, fitting flight delays as independent log-normal distributions. Considered flight retiming to reallocate buffer time. Used column generation and a heuristic branch-and-price algorithm [61, 125].",
+    "keywords": [
+      "T7",
+      "aircraft-routing",
+      "robust",
+      "propagated-delay",
+      "flight-retiming",
+      "column-generation",
+      "branch-and-price",
+      "string-based-model"
+    ],
+    "doi": "10.1002/chin.200610238",
+    "title": "Two Classes of p38α MAP Kinase Inhibitors Having a Common Diphenylether Core but Exhibiting Divergent Binding Modes.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Liang and Chaovalitwongse (2013)",
+    "author": "Liang and Chaovalitwongse",
+    "year": "2013",
+    "description": "Used a weekly rotation-tour network for FAP with ARP+CSP considerations [41, 67, 126]. Also considered airport capacity constraints in ARP [67].",
+    "keywords": [
+      "T3",
+      "weekly-scheduling",
+      "rotation-tour-network",
+      "FAP",
+      "ARP",
+      "CSP",
+      "airport-capacity"
+    ]
+  },
+  {
+    "raw": "Liang et al. (2011)",
+    "author": "Liang et al.",
+    "year": "2011",
+    "description": "Proposed a compact network representation of the ARP (rotation tour network), simplifying maintenance requirements to maximum consecutive flying days. The maintenance feasibility is guaranteed automatically [52, 126]. Considered airport capacity constraints in ARP [67].",
+    "keywords": [
+      "T2",
+      "aircraft-routing",
+      "rotation-tour-network",
+      "maintenance-requirements",
+      "compact-model",
+      "airport-capacity"
+    ],
+    "doi": "10.1002/chin.201131188",
+    "title": "ChemInform Abstract: Syntheses and Characterization of Novel Oxoisoaporphine Derivatives as Dual Inhibitors for Cholinesterases and Amyloid β Aggregation.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Liang et al. (2015)",
+    "author": "Liang et al.",
+    "year": "2015",
+    "description": "Presented an accurate computation of the expected propagated delay (EPD) of a string in ARP, proving a tight lower bound for EPD. Proposed a two-stage column generation method [62, 67, 126]. Considered airport capacity constraints in ARP [67].",
+    "keywords": [
+      "T7",
+      "propagated-delay",
+      "expected-delay",
+      "column-generation",
+      "two-stage-method",
+      "ARP"
+    ]
+  },
+  {
+    "raw": "Liang et al. (2018)",
+    "author": "Liang et al.",
+    "year": "2018",
+    "description": "Incorporated the flexibility of aircraft maintenance into their recovery model, showing considerable reduction in recovery cost by swapping planned maintenances [66, 127].",
+    "keywords": [
+      "T7",
+      "disruption-recovery",
+      "maintenance-flexibility",
+      "swap-opportunities",
+      "recovery-cost"
+    ],
+    "doi": "10.24247/ijeefusoct20183",
+    "title": "The Conflict of Interest Between People and Corporation in the Construction Project of Apartment in Yogyakarta Indonesia a Socio-Legal Perspective",
+    "journal": "International Journal of Environment, Ecology, Family and Urban Studies",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Lohatepanont and Barnhart (2004)",
+    "author": "Lohatepanont and Barnhart",
+    "year": "2004",
+    "description": "Considered the effect of flight frequencies and departure times on spilled passenger transfer preferences (itinerary-based demand) in FAM. Solved using a heuristic approach similar to IFAM [32, 127]. Also widely adopted daily schedule assumption [22].",
+    "keywords": [
+      "T7",
+      "itinerary-based-demand",
+      "demand-transfer",
+      "flight-frequencies",
+      "departure-times",
+      "FAP",
+      "heuristic"
+    ],
+    "doi": "10.1287/trsc.1030.0026",
+    "title": "Airline Schedule Planning: Integrated Models and Algorithms for Schedule Design and Fleet Assignment",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Maenhout and Vanhoucke (2010)",
+    "author": "Maenhout and Vanhoucke",
+    "year": "2010",
+    "description": "Penalised the deviation of assigned workload to promote fairness among all crew members in CRP [78, 128]. Used a hybrid scatter search heuristic [128].",
+    "keywords": [
+      "T7",
+      "crew-rostering",
+      "fairness",
+      "workload-balancing",
+      "heuristic"
+    ],
+    "doi": "10.1016/j.ejor.2010.01.040",
+    "title": "A hybrid scatter search heuristic for personalized crew rostering in the airline industry",
+    "journal": "European Journal of Operational Research",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Maher et al. (2018)",
+    "author": "Maher et al.",
+    "year": "2018",
+    "description": "Assumed maintenance should be performed within a fixed duration based on calendar days [43, 128]. Focused on the daily tail assignment problem under operational uncertainty using look-ahead maintenance constraints [128].",
+    "keywords": [
+      "T7",
+      "tail-assignment",
+      "maintenance-constraints",
+      "operational-uncertainty",
+      "calendar-days"
+    ],
+    "doi": "10.24247/ijeefusoct20183",
+    "title": "The Conflict of Interest Between People and Corporation in the Construction Project of Apartment in Yogyakarta Indonesia a Socio-Legal Perspective",
+    "journal": "International Journal of Environment, Ecology, Family and Urban Studies",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Mercier et al. (2005)",
+    "author": "Mercier et al.",
+    "year": "2005",
+    "description": "Introduced restricted connection (two flights not flown by same aircraft but long enough not to be short) to produce a more robust solution in integrated ARP and CPP. Penalised restricted connections in objective [95, 129].",
+    "keywords": [
+      "T7",
+      "integrated-model",
+      "ARP",
+      "CPP",
+      "robust-scheduling",
+      "restricted-connection"
+    ],
+    "doi": "10.1002/chin.200504228",
+    "title": "Magnetic and Transport Properties of HfFe<sub>6</sub>Ge<sub>6</sub>‐Type REMn<sub>6</sub>X<sub>6‐x</sub>X′<sub>x</sub> Solid Solutions (RE: Rare Earth; X: Ge, Sn; X′: Ga, In)",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Papadakos (2009)",
+    "author": "Papadakos",
+    "year": "2009",
+    "description": "Integrated FAP, ARP, and CPP with short connection constraints [99, 129].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "CPP",
+      "short-connection"
+    ],
+    "doi": "10.1016/j.cor.2007.08.002",
+    "title": "Integrated airline scheduling",
+    "journal": "Computers &amp; Operations Research",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Pilla et al. (2008)",
+    "author": "Pilla et al.",
+    "year": "2008",
+    "description": "Utilised a statistical computer experiments approach for airline fleet assignment for demand-driven dispatch [40, 130].",
+    "keywords": [
+      "T6",
+      "fleet-assignment",
+      "FAP",
+      "demand-driven-dispatch",
+      "statistical-methods"
+    ],
+    "doi": "10.1002/chin.200841016",
+    "title": "ChemInform Abstract: Tetravalent Metal Complexation by Keggin and Lacunary Phosphomolybdate Anions.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Pilla et al. (2012)",
+    "author": "Pilla et al.",
+    "year": "2012",
+    "description": "Used an L-shaped method for a two-stage stochastic programming fleet assignment model with stochastic demand [41, 130].",
+    "keywords": [
+      "T7",
+      "stochastic-programming",
+      "two-stage-model",
+      "FAP",
+      "stochastic-demand"
+    ],
+    "doi": "10.1002/chin.201241193",
+    "title": "ChemInform Abstract: Millifolides A—C. New 1,10‐Seco‐guaianolides from the Flowers of Achillea millefolium.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Pita et al. (2013)",
+    "author": "Pita et al.",
+    "year": "2013",
+    "description": "Considered an integrated flight scheduling and fleet assignment problem under airport congestion. Dealt with competition/cooperation among airlines, defining market shares as a piecewise linear function of flight frequency for passenger spill and recapture [100, 130].",
+    "keywords": [
+      "T7",
+      "integrated-model",
+      "schedule-design",
+      "FAP",
+      "airport-congestion",
+      "demand-spill",
+      "demand-recapture"
+    ],
+    "doi": "10.1002/chin.201319208",
+    "title": "ChemInform Abstract: Cytotoxic Quassinoids from Ailanthus altissima.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Pita et al. (2014)",
+    "author": "Pita et al.",
+    "year": "2014",
+    "description": "Presented an integrated model for SDP and FAP to minimise social cost rather than airline operating cost. Social cost includes flight cost, off-base cost, airport operating cost, and passenger travel cost. Used for subsidised air transport networks in Norway [100, 130].",
+    "keywords": [
+      "T7",
+      "integrated-model",
+      "schedule-design",
+      "FAP",
+      "social-cost",
+      "public-policy",
+      "sustainability"
+    ],
+    "doi": "10.1002/chin.201427221",
+    "title": "ChemInform Abstract: Biosynthesis of Thiomarinol A (I) and Related Metabolites of Pseudoalteromonas sp. SANK 73390.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Rexing et al. (2000)",
+    "author": "Rexing et al.",
+    "year": "2000",
+    "description": "Considered daily schedule assumption in airline literature [22]. Focused on airline fleet assignment with time windows [131]. Used an iterative solution technique [39].",
+    "keywords": [
+      "T2",
+      "FAP",
+      "time-windows",
+      "iterative-method",
+      "daily-schedule"
+    ],
+    "doi": "10.1002/chin.200051123",
+    "title": "ChemInform Abstract: New Histamine H<sub>3</sub>‐Receptor Ligands of the Proxifan Series: Imoproxifan and Other Selective Antagonists with High Oral in vivo Potency.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Rosenberger et al. (2004)",
+    "author": "Rosenberger et al.",
+    "year": "2004",
+    "description": "Proposed a robust FAM with short cycles (sequence of legs with same departure/arrival airport) for more cancellation opportunities. Focused on hub isolation [33, 131].",
+    "keywords": [
+      "T7",
+      "robust",
+      "FAP",
+      "short-cycles",
+      "hub-isolation",
+      "cancellation"
+    ]
+  },
+  {
+    "raw": "Rushmeier and Kontogiorgis (1997)",
+    "author": "Rushmeier and Kontogiorgis",
+    "year": "1997",
+    "description": "Noted airline scheduling is divided into sequential sub-problems including SDP, FAP, ARP, CSP [9]. Focused on flight connection possibilities for FAP [38, 131].",
+    "keywords": [
+      "T1",
+      "airline-scheduling",
+      "sub-problems",
+      "FAP",
+      "flight-connections"
+    ],
+    "doi": "10.1287/trsc.31.2.159",
+    "title": "Advances in the Optimization of Airline Fleet Assignment",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Ruther et al. (2017)",
+    "author": "Ruther et al.",
+    "year": "2017",
+    "description": "Considered re-optimising aircraft routes and crew pairings using up-to-date information (current location, maintenance, flying history of aircraft; current status of crew). Proposed a branch-and-price-based approach and two strategies to accelerate it [98, 132].",
+    "keywords": [
+      "T3",
+      "disruption-recovery",
+      "aircraft-routing",
+      "crew-pairing",
+      "re-optimisation",
+      "branch-and-price",
+      "real-time"
+    ],
+    "doi": "10.24247/ijbtrdec20172",
+    "title": "Development of Synbiotic Whey Drink",
+    "journal": "International Journal of Bio-Technology and Research",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Saddoune et al. (2012)",
+    "author": "Saddoune et al.",
+    "year": "2012",
+    "description": "Introduced base constraints (crewbase balancing constraints) to match workload to crew resource at a crewbase [74, 132]. Also sped up the integrated CSP solution process through a combination of column generation and a heuristic named dynamic constraint aggregation (DCA) [79, 132]. Used branch-on-variable strategy for CPP [86].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "CSP",
+      "crewbase-balancing",
+      "column-generation",
+      "dynamic-constraint-aggregation",
+      "branch-on-variable"
+    ],
+    "doi": "10.1002/chin.201241193",
+    "title": "ChemInform Abstract: Millifolides A—C. New 1,10‐Seco‐guaianolides from the Flowers of Achillea millefolium.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Saddoune et al. (2013)",
+    "author": "Saddoune et al.",
+    "year": "2013",
+    "description": "Addressed aircrew pairings with possible repetitions of the same flight number [133]. Introduced base constraints (crewbase balancing constraints) to match workload to crew resource at a crewbase [74].",
+    "keywords": [
+      "T7",
+      "crew-pairing",
+      "flight-repetition",
+      "crewbase-balancing"
+    ],
+    "doi": "10.1002/chin.201319208",
+    "title": "ChemInform Abstract: Cytotoxic Quassinoids from Ailanthus altissima.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Safaei and Jardine (2018)",
+    "author": "Safaei and Jardine",
+    "year": "2018",
+    "description": "Extended the connection-based model for ARP to ensure sufficient maintenance opportunities within any time interval in the planning horizon for each aircraft [51, 133].",
+    "keywords": [
+      "T7",
+      "aircraft-routing",
+      "maintenance-opportunities",
+      "connection-network"
+    ],
+    "doi": "10.1016/j.omega.2017.08.013",
+    "title": "Aircraft routing with generalized maintenance constraints",
+    "journal": "Omega",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Salazar-González (2014)",
+    "author": "Salazar-González",
+    "year": "2014",
+    "description": "Focused on approaches to solve the FAP+ARP+CSP (integrated) for a regional carrier [41, 99, 133]. Used an iterative heuristic method that generates crew pairings and aircraft routes sequentially [99].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "CSP",
+      "regional-carrier",
+      "iterative-heuristic"
+    ],
+    "doi": "10.22201/iiec.20078951e.1970.3.44991",
+    "title": "Reflexiones acerca de la desocupación disfrazada masiva y la estructura de clases del subdesarrollo en latinoamérica",
+    "journal": "Problemas del Desarrollo. Revista Latinoamericana de Economía",
+    "publisher": "Universidad Nacional Autonoma de Mexico"
+  },
+  {
+    "raw": "Sandhu and Klabjan (2007)",
+    "author": "Sandhu and Klabjan",
+    "year": "2007",
+    "description": "Integrated FAP and CPP with a plane-count constraint [92, 133]. Designed two approaches: Lagrangian relaxation + column generation, and Benders’ decomposition [92].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "CPP",
+      "plane-count-constraint",
+      "Lagrangian-relaxation",
+      "column-generation",
+      "benders-decomposition"
+    ],
+    "doi": "10.1287/opre.1070.0395",
+    "title": "Integrated Airline Fleeting and Crew-Pairing Decisions",
+    "journal": "Operations Research",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Sarac et al. (2006)",
+    "author": "Sarac et al.",
+    "year": "2006",
+    "description": "Imposed limitations on the accumulated FH (or cycles) for maintenance requirements in ARP [43]. Used a branch-and-price approach for operational aircraft maintenance routing [134].",
+    "keywords": [
+      "T2",
+      "aircraft-maintenance-routing",
+      "branch-and-price",
+      "flight-hours",
+      "cycles"
+    ],
+    "doi": "10.1002/chin.200610238",
+    "title": "Two Classes of p38α MAP Kinase Inhibitors Having a Common Diphenylether Core but Exhibiting Divergent Binding Modes.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Shao et al. (2017)",
+    "author": "Shao et al.",
+    "year": "2017",
+    "description": "Noted airline scheduling is divided into sequential sub-problems including SDP, FAP, ARP, CSP [9]. Considered daily schedule assumption [22]. Focused on FAP+ARP+CPP integration, including constraints for maintenance restrictions (max takeoffs, days, total flying time) and realistic operational considerations (itinerary-based demands, crew work rules). Used a Benders’ decomposition approach [99, 134].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "CPP",
+      "maintenance-restrictions",
+      "itinerary-based-demand",
+      "crew-work-rules",
+      "benders-decomposition"
+    ],
+    "doi": "10.24247/ijbtrdec20172",
+    "title": "Development of Synbiotic Whey Drink",
+    "journal": "International Journal of Bio-Technology and Research",
+    "publisher": "Transstellar Journal Publications and Research Consultancy Private Limited"
+  },
+  {
+    "raw": "Shebalov and Klabjan (2006)",
+    "author": "Shebalov and Klabjan",
+    "year": "2006",
+    "description": "Introduced move-up crews for robust airline crew pairing, where a crew is ready to fly a disrupted flight [83, 134]. Modified objective to minimise total pairing cost and encourage move-up crews [84].",
+    "keywords": [
+      "T7",
+      "robust",
+      "crew-pairing",
+      "move-up-crew",
+      "disruption-recovery"
+    ],
+    "doi": "10.1287/trsc.1050.0131",
+    "title": "Robust Airline Crew Pairing: Move-up Crews",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Sherali et al. (2006)",
+    "author": "Sherali et al.",
+    "year": "2006",
+    "description": "Discussed FAP providing the \"right number\" of seats to passengers, considering aircraft seats as perishable products with high operating costs [12, 136].",
+    "keywords": [
+      "T1",
+      "FAP",
+      "capacity-management",
+      "perishable-product"
+    ],
+    "doi": "10.1002/chin.200610238",
+    "title": "Two Classes of p38α MAP Kinase Inhibitors Having a Common Diphenylether Core but Exhibiting Divergent Binding Modes.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Sherali et al. (2010)",
+    "author": "Sherali et al.",
+    "year": "2010",
+    "description": "Used Benders’ decomposition for an integrated airline schedule design and fleet assignment problem with flight retiming, schedule balance, and demand recapture [41, 135].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "schedule-design",
+      "FAP",
+      "flight-retiming",
+      "schedule-balance",
+      "demand-recapture",
+      "benders-decomposition"
+    ],
+    "doi": "10.1002/chin.201039025",
+    "title": "ChemInform Abstract: CaCu<sub>3</sub>Pt<sub>4</sub>O<sub>12</sub>: The First Perovskite with the B Site Fully Occupied by Pt<sup>4+</sup>.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Smith and Johnson (2006)",
+    "author": "Smith and Johnson",
+    "year": "2006",
+    "description": "Addressed station purity (number of fleet types serving an airport) to promote schedule robustness in FAM. Provided additional opportunities for aircraft/crews to swap [33, 84, 136]. Used Column Generation (CG) [40].",
+    "keywords": [
+      "T7",
+      "robust",
+      "FAP",
+      "station-purity",
+      "swap-opportunities",
+      "column-generation"
+    ],
+    "doi": "10.1007/s10455-006-9025-9",
+    "title": "Partial regularity of mass-minimizing rectifiable sections",
+    "journal": "Annals of Global Analysis and Geometry",
+    "publisher": "Springer Science and Business Media LLC"
+  },
+  {
+    "raw": "Souai and Teghem (2009)",
+    "author": "Souai and Teghem",
+    "year": "2009",
+    "description": "Penalised the deviation of assigned workload to promote fairness among all crew members in CRP [78, 136]. Solved the integrated CSP using a genetic algorithm [79].",
+    "keywords": [
+      "T7",
+      "integrated-model",
+      "CSP",
+      "crew-rostering",
+      "fairness",
+      "genetic-algorithm",
+      "workload-balancing"
+    ],
+    "doi": "10.1016/j.ejor.2007.10.065",
+    "title": "Genetic algorithm based approach for the integrated airline crew-pairing and rostering problem",
+    "journal": "European Journal of Operational Research",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Sriram and Haghani (2003)",
+    "author": "Sriram and Haghani",
+    "year": "2003",
+    "description": "Considered Type B maintenance checks in ARP [42, 137].",
+    "keywords": [
+      "T1",
+      "maintenance-checks",
+      "ARP",
+      "type-B-check"
+    ],
+    "doi": "10.1016/s0965-8564(02)00004-6",
+    "title": "An optimization model for aircraft maintenance scheduling and re-assignment",
+    "journal": "Transportation Research Part A: Policy and Practice",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Stojković and Soumis (2001)",
+    "author": "Stojković and Soumis",
+    "year": "2001",
+    "description": "Noted airline scheduling is divided into sequential sub-problems including SDP, FAP, ARP, CSP [9, 137].",
+    "keywords": [
+      "T1",
+      "airline-scheduling",
+      "sub-problems"
+    ],
+    "doi": "10.1287/mnsc.47.9.1290.9780",
+    "title": "An Optimization Model for the Simultaneous Operational Flight and Pilot Scheduling Problem",
+    "journal": "Management Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Subramanian et al. (1994)",
+    "author": "Subramanian et al.",
+    "year": "1994",
+    "description": "Focused on fleet assignment at Delta Air Lines (Coldstart). Used cutting-edge algorithms and included maintenance arcs [38, 138].",
+    "keywords": [
+      "T3",
+      "FAP",
+      "airline-case-study",
+      "cutting-edge-algorithms",
+      "maintenance-arcs"
+    ],
+    "doi": "10.1093/intqhc/6.4.419-a",
+    "title": "El Desarrollo de Encuestas de Satisfaccion en la Republica Checa: un Nuevo en foque a un viejo tema",
+    "journal": "International Journal for Quality in Health Care",
+    "publisher": "Oxford University Press (OUP)"
+  },
+  {
+    "raw": "Talluri (1998)",
+    "author": "Talluri",
+    "year": "1998",
+    "description": "Discussed the four-day aircraft maintenance routing problem [138]. Stated that the Euler-tour requirement is often applied to ARP [67].",
+    "keywords": [
+      "T3",
+      "aircraft-maintenance-routing",
+      "Euler-tour",
+      "daily-schedule"
+    ],
+    "doi": "10.1109/35.685373",
+    "title": "Error-resilient video coding in the ISO MPEG-4 standard",
+    "journal": "IEEE Communications Magazine",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+  },
+  {
+    "raw": "Tumpson (2005)",
+    "author": "Tumpson",
+    "year": "2005",
+    "description": "Focused on Optimized Preferential Bidding Systems: Models and Implementations [153, 155-157].",
+    "keywords": [
+      "T3",
+      "preferential-bidding-system",
+      "implementation"
+    ]
+  },
+  {
+    "raw": "Vance et al. (1997)",
+    "author": "Vance et al.",
+    "year": "1997",
+    "description": "Proposed a duty-based formulation for CPP, dividing decisions into two stages: covering legs by duties, then duties by pairings. Used a column-generation-based framework [75, 138].",
+    "keywords": [
+      "T2",
+      "crew-pairing",
+      "CPP",
+      "duty-based-formulation",
+      "column-generation",
+      "two-stage-approach"
+    ],
+    "doi": "10.1002/chin.199749058",
+    "title": "ChemInform Abstract: Stereoselective Ring Opening of Electronically Excited Cyclohexa‐2,4‐ dienones: Cause and Effect.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Wei and Vaze (2018)",
+    "author": "Wei and Vaze",
+    "year": "2018",
+    "description": "Studied a robust crew pairing problem, considering crew cost and operational features (scheduled sit time, rest time, flying time, elapsed time, crewbase purity violations, aircraft changes). Solved using column generation embedded in a variable diving heuristic [85, 138].",
+    "keywords": [
+      "T7",
+      "robust",
+      "crew-pairing",
+      "operational-features",
+      "column-generation",
+      "heuristic"
+    ],
+    "doi": "10.1287/trsc.2018.0834",
+    "title": "Modeling Crew Itineraries and Delays in the National Air Transportation System",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Weide et al. (2010)",
+    "author": "Weide et al.",
+    "year": "2010",
+    "description": "Presented a model with restricted connection consideration for robust and integrated aircraft routing and crew scheduling. Developed an iterative heuristic approach for trade-off between cost and robustness [95, 139].",
+    "keywords": [
+      "T7",
+      "robust",
+      "integrated-model",
+      "aircraft-routing",
+      "crew-scheduling",
+      "restricted-connection",
+      "heuristic",
+      "cost-robustness-trade-off"
+    ],
+    "doi": "10.1002/chin.201039025",
+    "title": "ChemInform Abstract: CaCu<sub>3</sub>Pt<sub>4</sub>O<sub>12</sub>: The First Perovskite with the B Site Fully Occupied by Pt<sup>4+</sup>.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Yan and Kung (2018)",
+    "author": "Yan and Kung",
+    "year": "2018",
+    "description": "Sought to minimise the maximal possible propagated delay using a robust optimization approach for aircraft routing. Proposed an exact decomposition solution approach under a column-and-row generation framework [62, 66, 139].",
+    "keywords": [
+      "T7",
+      "robust-optimization",
+      "propagated-delay",
+      "aircraft-routing",
+      "exact-method",
+      "decomposition",
+      "column-and-row-generation"
+    ],
+    "doi": "10.1107/s0108767318099348",
+    "title": "New structural insight into HMG-CoA reductase mechanism and cofactor specificity",
+    "journal": "Acta Crystallographica Section A Foundations and Advances",
+    "publisher": "International Union of Crystallography (IUCr)"
+  },
+  {
+    "raw": "Yan and Tseng (2002)",
+    "author": "Yan and Tseng",
+    "year": "2002",
+    "description": "Developed a passenger demand model for airline flight scheduling and fleet routing. Used Lagrangian relaxation and sub-gradient method [39, 139].",
+    "keywords": [
+      "T7",
+      "passenger-demand-model",
+      "schedule-design",
+      "fleet-routing",
+      "Lagrangian-relaxation",
+      "sub-gradient-method"
+    ],
+    "doi": "10.1016/s0305-0548(01)00046-6",
+    "title": "A passenger demand model for airline flight scheduling and fleet routing",
+    "journal": "Computers &amp; Operations Research",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "raw": "Yen and Birge (2006)",
+    "author": "Yen and Birge",
+    "year": "2006",
+    "description": "Proposed a stochastic programming approach to the airline crew scheduling problem [139].",
+    "keywords": [
+      "T7",
+      "stochastic-programming",
+      "crew-scheduling"
+    ],
+    "doi": "10.1287/trsc.1050.0138",
+    "title": "A Stochastic Programming Approach to the Airline Crew Scheduling Problem",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  },
+  {
+    "raw": "Zeghal Mansour et al. (2011)",
+    "author": "Zeghal Mansour et al.",
+    "year": "2011",
+    "description": "Used a column-generation-based heuristic approach to solve their integrated FAP and ARP model with retiming consideration, which increases possible connections and reduces required aircraft [90, 140].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "FAP",
+      "ARP",
+      "flight-retiming",
+      "column-generation",
+      "heuristic"
+    ],
+    "doi": "10.1002/chin.201144139",
+    "title": "ChemInform Abstract: Asymmetric Synthesis and Biological Evaluations of (+)‐ and (‐)‐6‐Dimethoxymethyl‐1,4‐dihydropyridine‐3‐carboxylic Acid Derivatives Blocking N‐Type Calcium Channels.",
+    "journal": "ChemInform",
+    "publisher": "Wiley"
+  },
+  {
+    "raw": "Zeighami and Soumis (2019)",
+    "author": "Zeighami and Soumis",
+    "year": "2019",
+    "description": "Penalised the deviation of assigned workload to promote fairness among all crew members in CRP [78]. Combined Benders’ decomposition and column generation for integrated crew pairing and personalised crew assignment problems [140].",
+    "keywords": [
+      "T3",
+      "integrated-model",
+      "crew-pairing",
+      "personalised-assignment",
+      "benders-decomposition",
+      "column-generation",
+      "fairness"
+    ],
+    "doi": "10.1287/trsc.2019.0892",
+    "title": "Combining Benders’ Decomposition and Column Generation for Integrated Crew Pairing and Personalized Crew Assignment Problems",
+    "journal": "Transportation Science",
+    "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)"
+  }
+]
